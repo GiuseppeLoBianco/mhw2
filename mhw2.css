@@ -1,0 +1,140 @@
+.titolo{
+    width: 780px;
+    color: white;
+    font-family: serif;
+    font-weight: normal;
+    font-size: 36px;
+    margin: 250px auto;
+    z-index:1;
+
+}
+
+.name{
+    margin-top: 35px;
+    margin-bottom: 0px;
+    text-align: center;
+    font:bold;
+    line-height: 24px;
+    }
+
+
+.aggiornamento{
+    width: 190px;
+    text-align: center;
+    font-style: italic;
+    border-bottom: 2px solid;
+    padding: 10px;
+    border-bottom-color:#e6e6e6;
+    line-height: 24px;
+    margin:0px auto;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-image: url(Nav.jpg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index:-1
+}
+
+#overlay{
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 500px;
+    width: 100%;
+  }
+
+footer{
+    display: flex;
+    background-color: black;
+    height: 70px;
+    width:100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    margin-top:100px;
+   }
+
+.profilo{
+    border-radius: 100%;
+    border-color: white;
+    border: 1px;
+    width: 100px;
+    margin-bottom: 1px;
+    position: absolute;
+    top: 450px;
+    left:46.5%;
+}
+
+body{
+    margin: 0px;
+}
+
+.hidden{
+    display: none;
+}
+
+.copertina{
+    border-radius: 30%;
+    width : 200px;
+    height: 200px;
+}
+
+.elemento{
+    
+    justify-content: center;
+    background-color: rgb(240, 253, 255);
+    border-radius: 10%;
+    width: 200px;
+    flex-direction: column;
+    margin: 20px;
+    
+}
+
+
+.griglia{
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+
+    width:100%;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+
+
+.cliccato{
+    background-color: yellow;
+}
+
+article{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+#prefelem{
+    display: flex;
+    flex-wrap: wrap;
+}
